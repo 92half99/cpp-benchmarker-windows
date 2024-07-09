@@ -4,14 +4,14 @@ Scoped-based C++ timer for benchmarking, specific to Windows.
 # How to use
 Include the file as a header:
 ```cpp
-#include "timer.h"
+#include "timer.hpp"
 ```
 Then simply create a scope using `{}` around the code you want to benchmark, or place it at the start of your `int main` function to time your entire code base.
 
 # Example Usage
 ```cpp
 #include <iostream>
-#include "timer.h"
+#include "timer.hpp"
 
 int main()
 {
